@@ -25,5 +25,10 @@ Na hora de instalar o debian so contem os arquivos ensenciais enquanto o centos 
 APT -  Advanced Package Tool
 
 
+### 
+
+LVM - Logical Volume Management
+
+
 
 links interessantes [https://www.redswitches.com/blog/centos-vs-debian/] [https://www.redhat.com/pt-br/topics/linux/what-is-centos] [https://www.fosslinux.com/46040/reasons-use-debian-linux-distro.htm] [https://www.pontikis.net/blog/five-reasons-to-use-debian-as-a-server#google_vignette]
