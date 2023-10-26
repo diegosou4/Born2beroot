@@ -59,9 +59,14 @@ a flag -g (--groups)e usado para espeficar que aquele usuario vai ser adicionado
 
 estou colocando o diegmore no grupo de superusuarios
 
-Mesmo colocando meu usuario no grupo de sudores existem arquivos que pelo fato terem informacoes sensiveis ele ainda e necessario que eu chame o sudo antes de tentar ler,editar o arquivo, ou seja o usuario root que realmente pode fazer isso
+Mesmo colocando meu usuario no grupo de sudores existem arquivos que pelo fato terem informacoes sensiveis ele ainda e necessario que eu chame o sudo antes de tentar ler,editar o arquivo, ou seja o usuario root que realmente pode fazer isso.
 
 
 
+
+getent serve como um atalho para voce ver o que tem dentro do banco de dados (repositorios) do seu linux e uma forma mais facil do que voce precisar cd /etc/group
+para verificar quais bancos de dados e tipos que existem voce pode da um cat /etc/nsswitch.conf , voce vai encontrar um arquivo mostrando os bancos que tem o tipo deles.
+dentro desse arquivo vao ter passw, groups , shadow que sao um banco de dados (file-based-database), ou seja um banco de dados que armazena dados de um arquivo de forma simples, 
+vai encontar hots como file dns que basicamente a mesma coisa porem contem informacoes relacionadas a dns
 
 
