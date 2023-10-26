@@ -89,4 +89,6 @@ A Particao swap normalmente ela e configurada para 1 GB, e interessante porque c
 ele faz um swap de 1gb de hd para ram, assim evitando sobrecarga, ela da esse 1 giga porem a particao swap ela vai ser muito mais lenta do que a memoria ram.
 Ou seja ajuda, naquele momento de estresse, mas dependendo do estresse nao vai ajudar tanto.
 
-
+A Particao Raiz / 
+No caso da nossa particao root, sim o usuario root esta na particao raiz por que ele e um superusuario do sistema assim vai ter o diretorio do usuario root e do sistema e vai 
+conter todos os diretorios do sistema que ele pode acessar e controlar.
