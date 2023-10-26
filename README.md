@@ -32,3 +32,33 @@ LVM - Logical Volume Management
 
 
 links interessantes [https://www.redswitches.com/blog/centos-vs-debian/] [https://www.redhat.com/pt-br/topics/linux/what-is-centos] [https://www.fosslinux.com/46040/reasons-use-debian-linux-distro.htm] [https://www.pontikis.net/blog/five-reasons-to-use-debian-as-a-server#google_vignette]
+
+
+
+
+### O que sudo
+Existe um comando chamando `su` que quando voce digita no prompt de comando e apos ele coloca o nome de outro usuario registrado
+
+/etc/sudores 
+
+
+
+### Comandos
+
+
+sudo adduser "nome do user" -- vai criar um novo usuario
+
+su "nome do user" -- voce vai trocar de usuario na maquina 
+
+
+quando faco 
+sudo usermod -a -G sudo diegmore
+
+a flag -a indica que o usuario deve ser adicionado ao grupo sem remover ele de qualquer outro grupo que ele esta includo 
+a flag -g e usado para espeficar que aquele usuario vai ser adicionado em um ou mais grupos
+
+estou colocando o diegmore no grupo de superusuarios
+
+
+
+
