@@ -61,7 +61,8 @@ a flag -g (--groups)e usado para espeficar que aquele usuario vai ser adicionado
 estou colocando o diegmore no grupo de superusuarios
 
 Basicamente quando eu coloco o usuario no grupo sudo, a partir de agora quando ele executar o comando sudo , ele vai conseguir
-fazer o que usuario root faria naquele momento, entao basicamente eu posso ter um usuario dentro do meu linux que nao possui essa permissao
+fazer o que usuario root faria naquele momento, entao basicamente eu posso ter um usuario dentro do meu linux que nao possui essa permissao,
+isso e interessante quando voce nao quer que o usuario instale arquivos que necessitam dessa permissao.
 
 Mesmo colocando meu usuario no grupo de sudores existem arquivos que pelo fato terem informacoes sensiveis ele ainda 
 e necessario que eu chame o sudo antes de tentar ler,editar o arquivo, ou seja o usuario root que realmente pode fazer isso.
@@ -74,6 +75,12 @@ para verificar quais bancos de dados e tipos que existem voce pode da um cat /et
 dentro desse arquivo vao ter passw, groups , shadow que sao um banco de dados (file-based-database), ou seja um banco de dados que armazena dados de um arquivo de forma simples, 
 vai encontar hots como file dns que basicamente a mesma coisa porem contem informacoes relacionadas a dns.
 
+
+``
+You need to edit /etc/sudoers. For those who don't use vi, 
+you should edit this file (on some flavors of Linux) with a terminal command like this:
+sudo EDITOR=gedit visudo
+``
 
 
 
