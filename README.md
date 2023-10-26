@@ -54,10 +54,13 @@ su "nome do user" -- voce vai trocar de usuario na maquina
 quando faco 
 sudo usermod -a -G sudo diegmore
 
-a flag -a indica que o usuario deve ser adicionado ao grupo sem remover ele de qualquer outro grupo que ele esta includo 
-a flag -g e usado para espeficar que aquele usuario vai ser adicionado em um ou mais grupos
+a flag -a (--append) indica que o usuario deve ser adicionado ao grupo sem remover ele de qualquer outro grupo que ele esta includo 
+a flag -g (--groups)e usado para espeficar que aquele usuario vai ser adicionado em um ou mais grupos
 
 estou colocando o diegmore no grupo de superusuarios
+
+Mesmo colocando meu usuario no grupo de sudores existem arquivos que pelo fato terem informacoes sensiveis ele ainda e necessario que eu chame o sudo antes de tentar ler,editar o arquivo, ou seja o usuario root que realmente pode fazer isso
+
 
 
 
