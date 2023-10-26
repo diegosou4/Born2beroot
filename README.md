@@ -83,4 +83,10 @@ sudo EDITOR=gedit visudo
 ``
 
 
+## Particoes
+
+A Particao swap normalmente ela e configurada para 1 GB, e interessante porque caso o computador esteja precisando de memoria ram
+ele faz um swap de 1gb de hd para ram, assim evitando sobrecarga, ela da esse 1 giga porem a particao swap ela vai ser muito mais lenta do que a memoria ram.
+Ou seja ajuda, naquele momento de estresse, mas dependendo do estresse nao vai ajudar tanto.
+
 
