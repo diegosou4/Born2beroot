@@ -92,3 +92,16 @@ Ou seja ajuda, naquele momento de estresse, mas dependendo do estresse nao vai a
 A Particao Raiz / 
 No caso da nossa particao root, sim o usuario root esta na particao raiz por que ele e um superusuario do sistema assim vai ter o diretorio do usuario root e do sistema e vai 
 conter todos os diretorios do sistema que ele pode acessar e controlar.
+
+
+A Particao temp /temp
+Aonde ficam todos os arquivos temporarios gerados pro progamas e o sistema que nao vao ser usados depois de ser executado, apois reiniciar ele automaticamente vai apagar esses arquivos
+
+A Particao srv /srv
+Aonde vao ficar os dados e arquivos do servidor web que voce criou
+
+A Particao var
+Aonde vao ficar arquivos que estao sempre em constante alteracao durante a operacao do sistema
+
+A particao var/log
+e uma subpasta dentro da var, que armazena os logs , ou seja as informacoes dos aplicativos e tudo que ta rodando, para caso tenha algum erro ele guarda para voce
