@@ -11,27 +11,30 @@ atualizar o kernel do debian, porem atualizacoes do kernel sao raras e voce pode
 Debian tem uma grande compatibilidade com dispositivos e hardware de servidores.
 
 O Debian tem um gerenciamento de pacotes melhor e mais flexivel comparando ao CentOs.
-
-## Rocky Linux CentOS
 E uma das distribuicoes linux mais antigas tendo mais de 18 anos ativa.
+Na hora de instalar o debian so contem os arquivos ensenciais enquanto o centos pensa na interface do usuario.
+## Rocky Linux CentOS
 
 O Rocky linux e mais densevolvido para empresas, ela e mais recente no mercado, seu lancamento foi em 2021
 ele usa uma variante do centos, ela e baseada em uma distribuicao linux que esta em pausa de atualizacao ate 2024
-
 Atualizar para ultima versao e mais complicado que parece ate os funcionarios tem dificuldades em fazer, preferem reistalar do zero.
-Alguns aplicativos atualizados ficam bugados, porque o centos demora muito para atualizar sendo assim o usuario tem que usar aplicativos em versoes mais antigas.
-
-Na hora de instalar o debian so contem os arquivos ensenciais enquanto o centos pensa na interface do usuario.
-APT -  Advanced Package Tool
+Alguns aplicativos atualizados ficam bugados, porque o centos demora muito para atualizar sendo assim o usuario
+tem que usar aplicativos em versoes mais antigas.
 
 
 ### 
 
 LVM - Logical Volume Management
+Quando falamos de LVM, e interessante seu conceito, pois voce consegue reunir um monte de hd des 50gigas ou particoes e tornar um so e dentro dessa particao, fazer a divisao de particoes como quiser, assim alem de voce poder ter um padrao de tamanho de hd voce consegue direcionar mais memoria para determinado ambiente, mesmo ultrapassado o tamanho de um dos hds.
+
+Etx4 basicamente e um sistema de arquivos de como eles vao ser salvos, lidos e escritos?
+
+APT -  Advanced Package Tool
+
+Criptografia de hd, fazemos a cryptografia do arquivos e quando ele vai ser editado ou exibido ele desciprografa, ele protege os dados para invasoes, o proprio instalador do debian tem essa opcao, como estamos criando um servidor e recomendado nos fazemos essa criptografia.
 
 
 
-links interessantes [https://www.redswitches.com/blog/centos-vs-debian/] [https://www.redhat.com/pt-br/topics/linux/what-is-centos] [https://www.fosslinux.com/46040/reasons-use-debian-linux-distro.htm] [https://www.pontikis.net/blog/five-reasons-to-use-debian-as-a-server#google_vignette]
 
 
 
@@ -42,15 +45,12 @@ Existe um comando chamando `su` que quando voce digita no prompt de comando e ap
 /etc/sudores 
 
 
-
 ### Comandos
 
 
 sudo adduser "nome do user" -- vai criar um novo usuario
 
 su "nome do user" -- voce vai trocar de usuario na maquina 
-
-
 
 quando faco 
 sudo usermod -a -G sudo diegmore
@@ -105,3 +105,6 @@ Aonde vao ficar arquivos que estao sempre em constante alteracao durante a opera
 
 A particao var/log
 e uma subpasta dentro da var, que armazena os logs , ou seja as informacoes dos aplicativos e tudo que ta rodando, para caso tenha algum erro ele guarda para voce
+
+
+links interessantes [https://www.redswitches.com/blog/centos-vs-debian/] [https://www.redhat.com/pt-br/topics/linux/what-is-centos] [https://www.fosslinux.com/46040/reasons-use-debian-linux-distro.htm] [https://www.pontikis.net/blog/five-reasons-to-use-debian-as-a-server#google_vignette]
