@@ -108,3 +108,16 @@ e uma subpasta dentro da var, que armazena os logs , ou seja as informacoes dos 
 
 
 links interessantes [https://www.redswitches.com/blog/centos-vs-debian/] [https://www.redhat.com/pt-br/topics/linux/what-is-centos] [https://www.fosslinux.com/46040/reasons-use-debian-linux-distro.htm] [https://www.pontikis.net/blog/five-reasons-to-use-debian-as-a-server#google_vignette]
+
+TCP- responsavel pelo transporte de protocolos, conexao mais segura, os dados sao dividos em pacotes 
+
+Conceito de portas e a questao de eu tenho um ip e cada porta esta relacionada a algo diferente.
+
+
+## Comandos Uteis
+
+``sudo chage username`` verificar informacoes sobre a password
+``useradd`` Cria um novo usuario
+``sudo usermod -aG usuario e o grupo`` adiciona no grupo
+
+
