@@ -113,6 +113,11 @@ TCP- responsavel pelo transporte de protocolos, conexao mais segura, os dados sa
 
 Conceito de portas e a questao de eu tenho um ip e cada porta esta relacionada a algo diferente.
 
+Porta 4242 e para acessar a maquina virtual
+Porta 80 e para acessar o site
+Porta 7080 e para acessar os dados do servidor web
+Porta 8088 e para verificar se o ligthspeed esta funcionando, se o php esta ok
+
 
 ## Comandos Uteis
 
