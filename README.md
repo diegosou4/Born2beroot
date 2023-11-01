@@ -124,5 +124,6 @@ Porta 8088 e para verificar se o ligthspeed esta funcionando, se o php esta ok
 ``sudo chage username`` verificar informacoes sobre a password
 ``useradd`` Cria um novo usuario
 ``sudo usermod -aG usuario e o grupo`` adiciona no grupo
+``sudo hostnamectl set-hostname`` altera nome da maquina
 
 
